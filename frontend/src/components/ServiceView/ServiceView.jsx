@@ -1,3 +1,7 @@
 export const ServiceView = () => {
-  return <div>ServiceView</div>;
+  return (
+    <>
+      <div>ServiceView</div>
+    </>
+  );
 };
