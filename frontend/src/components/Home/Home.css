@@ -1,5 +1,5 @@
 .homeContainer {
-  background-image: url('../../img/backgroundHome.jpg');
+  background-image: url("../../img/backgroundHome.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -12,7 +12,7 @@
 }
 
 .homeContainer img {
-  margin: 18vh auto 13vh auto;
+  margin: 13vh auto 15vh auto;
 }
 
 .homeBtns button {

@@ -9,7 +9,9 @@ export const Home = () => {
         <Link to="/services">
           <button className="btnServices">SERVICIOS</button>
         </Link>
-        <button className="btnLogin">LOGIN</button>
+        <Link to="/login">
+          <button className="btnLogin">LOGIN</button>
+        </Link>
       </section>
     </div>
   );
