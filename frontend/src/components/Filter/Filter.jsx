@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Filter.css";
 
 export const Filter = () => {
@@ -26,9 +27,11 @@ export const Filter = () => {
           <option value="masDeDiez">+ 10</option>
         </select>
         <div className="formBtnContainer">
-          <button type="send" className="filterFormBtn">
-            BUSCAR
-          </button>
+          <Link to="/">
+            <button type="send" className="filterFormBtn">
+              BUSCAR
+            </button>
+          </Link>
         </div>
       </form>
     </div>
