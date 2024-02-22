@@ -3,7 +3,7 @@ Proyecto desarrollado para la 5ª edición de la #HACKATHONF5 de Factoría F5 y 
 
 ## Descripción
 
-TalentUS es una plataforma de aprendizaje colaborativo que conecta a personas de diferentes edades y habilidades para compartir conocimientos y experiencias de manera intergeneracional. Nuestra misión es promover la conexión humana, el aprendizaje continuo y el crecimiento personal a través de la colaboración en una comunidad inclusiva y solidaria.
+TalentUS es una plataforma de aprendizaje colaborativo que conecta a personas de diferentes edades y habilidades para compartir conocimientos y experiencias de manera intergeneracional. Su misión es promover la conexión humana, el aprendizaje continuo y el crecimiento personal a través de la colaboración en una comunidad inclusiva y solidaria.
 
 ## Características principales
 
