@@ -1,10 +1,9 @@
 import { Link } from "react-router-dom";
-import "./Navbar.css"
+import "./Navbar.css";
 
 export const Navbar = () => {
   return (
-    <div className="filterContainer">
-      <div>Filter</div>
+    <div>
       <nav className="navbar">
         <Link to="/">
           <section className="navbarOptions">
