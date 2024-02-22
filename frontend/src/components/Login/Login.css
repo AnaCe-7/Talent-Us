@@ -10,9 +10,12 @@
 }
 
 .loginContainer img {
-  margin: 3.5vh auto 9vh auto;
+  margin: 3.5vh auto 4vh auto;
 }
 
+.logoLogin {
+ width: 60vw;
+}
 .loginForm {
   width: 70vw;
   margin: auto;

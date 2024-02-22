@@ -11,8 +11,8 @@
   align-items: center;
 }
 
-.homeContainer img {
-  margin: 13vh auto 15vh auto;
+.logo {
+  margin-top: -50px;
 }
 
 .homeBtns button {

@@ -11,7 +11,7 @@ export const Navbar = () => {
             Inicio
           </section>
         </Link>
-        <Link to="/services">
+        <Link to="/categories">
           <section className="navbarOptions">
             <img
               src="../../../src/img/servicesIcon.svg"
@@ -21,7 +21,7 @@ export const Navbar = () => {
             Servicios
           </section>
         </Link>
-        <Link to="">
+        <Link to="/login">
           <section className="navbarOptions">
             <img src="../../../src/img/favoritesIcon.svg" alt="Favoritos" />
             Favoritos

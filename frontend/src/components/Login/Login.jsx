@@ -6,7 +6,11 @@ export const Login = () => {
     <>
       <div className="loginContainer">
         <div className="loginImg">
-          <img src="../../../src/img/logo.svg" alt="Logo Talentus" />
+          <img
+            src="../../../src/img/logo.svg"
+            alt="Logo Talentus"
+            className="logoLogin"
+          />
         </div>
         <form className="loginForm">
           <p>Login:</p>
