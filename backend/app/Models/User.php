@@ -7,6 +7,8 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
+use App\Models\Service;
+use App\Models\Booking;
 
 class User extends Authenticatable
 {
@@ -18,28 +20,33 @@ class User extends Authenticatable
      * @var array<int, string>
      */
     protected $fillable = [
+        'DNI',
         'name',
+        'lastname',
         'email',
         'password',
+        'phone',
+        'interest',
+        'expertise',
+        'rol',
     ];
 
-    /**
-     * The attributes that should be hidden for serialization.
-     *
-     * @var array<int, string>
-     */
     protected $hidden = [
         'password',
-        'remember_token',
     ];
 
-    /**
-     * The attributes that should be cast.
-     *
-     * @var array<string, string>
-     */
-    protected $casts = [
-        'email_verified_at' => 'datetime',
-        'password' => 'hashed',
-    ];
+    public function services()
+    {
+        return $this->hasMany(Service::class, 'id_users', 'id');
+    }
+
+    public function bookings()
+    {
+        return $this->hasMany(Booking::class, 'id_client', 'id');
+    }
+
+    public function providerBookings()
+    {
+        return $this->hasMany(Booking::class, 'id_provider', 'id');
+    }
 }
