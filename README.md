@@ -1,4 +1,9 @@
 # TalentUS
+
+<p align="center">
+  <img src="frontend/src/img/logo.svg" alt="Logo de TalentUS" />
+</p>
+
 Proyecto desarrollado para la 5ª edición de la #HACKATHONF5 de Factoría F5 y propuesto por Globant.
 
 ## Descripción
@@ -11,15 +16,15 @@ TalentUS es una plataforma de aprendizaje colaborativo que conecta a personas de
 - Conecta con otros usuarios para aprender, enseñar o participar en proyectos.
 - Reserva talleres, clases, servicios y eventos presenciales directamente desde la plataforma.
 - Deja reseñas y calificaciones para compartir tu experiencia y ayudar a otros usuarios.
-- Participa en grupos de discusión y comunidades en línea relacionadas con tus áreas de interés.
-- Personaliza tu perfil y establece tus propias tarifas y disponibilidad para los servicios que ofreces.
+- Participa en talleres y comunidades relacionadas con tus áreas de interés.
+- Si quieres anunciarte, personaliza tu perfil, propón tus tarifas o intercambia conocimientos.
 
 ## Tecnologías utilizadas
 - Frontend: React.js
 - Backend: Laravel
 - DB: MySQL
 
-## Instalación
+## Guía de instalación
 
 1. Clona el repositorio de [TalentUS](https://github.com/AnaCe-7/Talent-Us) en tu carpeta local.
 ```
