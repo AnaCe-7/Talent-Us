@@ -40,13 +40,13 @@ class User extends Authenticatable
         return $this->hasMany(Service::class, 'id_users', 'id');
     }
 
-    public function bookings()
-    {
-        return $this->hasMany(Booking::class, 'id_client', 'id');
-    }
+    // public function bookings()
+    // {
+    //     return $this->hasMany(Booking::class, 'id_client', 'id');
+    // }
 
-    public function providerBookings()
-    {
-        return $this->hasMany(Booking::class, 'id_provider', 'id');
-    }
+    // public function providerBookings()
+    // {
+    //     return $this->hasMany(Booking::class, 'id_provider', 'id');
+    // }
 }
