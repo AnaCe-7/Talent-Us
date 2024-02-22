@@ -1,0 +1,45 @@
+.categoriesContainer {
+  background-image: url("../../img/backgroundFilter.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #143d59;
+}
+
+.searchContainer {
+  width: 70vw;
+  margin-top: 6vh;
+}
+
+.categoriesTitle {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 5vh auto 10vh auto;
+  text-align: center;
+}
+
+.categoriesOptions {
+  width: 80vw;
+}
+
+.categoriesOptions p {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.imgCategories {
+  display: flex;
+  gap: 5vw;
+  justify-content: space-between;
+}
+
+.imgCategories img {
+  background-color: #143d59;
+  width: 20vw;
+  height: 15vw;
+  border-radius: 10px;
+  margin-bottom: 2vh;
+}

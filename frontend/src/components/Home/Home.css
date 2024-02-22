@@ -1,0 +1,36 @@
+.homeContainer {
+  background-image: url("../../img/backgroundHome.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.homeContainer,
+.homeBtns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  margin-top: -50px;
+}
+
+.homeBtns button {
+  width: 45vw;
+  height: 7vh;
+  border: none;
+  border-radius: 50px;
+  margin: 2vh auto;
+  font-weight: bold;
+  font-size: large;
+  color: white;
+  cursor: pointer;
+}
+
+.btnServices {
+  background-color: #00abe1;
+}
+
+.btnLogin {
+  background-color: #143d59;
+}
