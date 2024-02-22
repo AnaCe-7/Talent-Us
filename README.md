@@ -20,9 +20,14 @@ TalentUS es una plataforma de aprendizaje colaborativo que conecta a personas de
 - Si quieres anunciarte, personaliza tu perfil, propón tus tarifas o intercambia conocimientos.
 
 ## Tecnologías utilizadas
-- Frontend: React.js
-- Backend: Laravel
-- DB: MySQL
+- **Frontend**
+  -  React.js (v. 18.2.0)
+  -  Node.js (v. 20.9.0)
+- **Backend**
+  - Laravel (v. 10.10)
+  - PHP (v. 8.2.12)
+  - Composer (v. 2.7.1)
+  - Xampp (v. 8.2.12)
 
 ## Guía de instalación
 
@@ -68,13 +73,13 @@ php artisan serve
 
 ## Authors
 
-- [Ana](https://github.com/AnaCe-7)
-- [Pilar](https://github.com/Pilarsededuran)
-- [Sergio](https://github.com/sergiolalu)
-- [Isla](https://github.com/islacrur)
-- [Hemi](https://github.com/HemiCastillo)
-- [Noelia](https://github.com/Bedknobs23)
-- [Emii](https://github.com/)
+- Ana Cecilia [Github](https://github.com/AnaCe-7) · [Linkedin](https://www.linkedin.com/in/ana-cecilia-reques-araujo/)
+- Isla [Github](https://github.com/islacrur) · [Linkedin](https://www.linkedin.com/in/isla-cruanes)
+- Hemi [Github](https://github.com/HemiCastillo) · [Linkedin](https://www.linkedin.com/in/hemileidis/)
+- Noelia [Github](https://github.com/Bedknobs23) · [Linkedin](https://www.linkedin.com/in/noelia-rey-silva/)
+- Pilar [Github](https://github.com/Pilarsededuran) · [Linkedin](https://www.linkedin.com/in/pilar-sede%C3%B1o-9340012a4/)
+- Sergio [Github](https://github.com/sergiolalu) · [Linkedin](https://www.linkedin.com/in/)
+- Emii [Github](https://github.com/) · [Linkedin](https://www.linkedin.com/in/)
 
 <!-- ## Licencia
 
