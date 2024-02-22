@@ -1,9 +1,10 @@
 import "./App.css";
-import {Home} from "./components/Home/Home";
+import { Home } from "./components/Home/Home";
 import { Categories } from "./components/Categories/Categories";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Filter } from "./components/Filter/Filter";
 import { ServiceView } from "./components/ServiceView/ServiceView";
+import { Login } from "./components/Login/Login";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/categories" element={<Categories />}></Route>
         <Route path="/filter" element={<Filter />}></Route>
         <Route path="/service" element={<ServiceView />}></Route>
+        <Route path="/login" element={<Login />}></Route>
       </Routes>
     </BrowserRouter>
   );
